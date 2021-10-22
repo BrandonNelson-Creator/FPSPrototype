@@ -8,6 +8,7 @@ public class Mission1 : MonoBehaviour
     public GameObject customText;
     public GameObject mission;
     public GameObject door;
+    public GameObject shedOpen;
     
 
 
@@ -28,6 +29,7 @@ public class Mission1 : MonoBehaviour
             customText.SetActive(false);
             mission.SetActive(true);
             door.SetActive(true);
+            shedOpen.SetActive(false);
 
 
         }

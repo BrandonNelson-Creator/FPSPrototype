@@ -83,6 +83,6 @@ public class SimpleCollectibleScript : MonoBehaviour {
 			Debug.Log ("Do NoType Command");
 		}
 
-		Destroy (gameObject);
+		gameObject.SetActive(false);
 	}
 }

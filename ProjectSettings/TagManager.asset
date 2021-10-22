@@ -12,6 +12,8 @@ TagManager:
   - Coin
   - mission
   - mission1A
+  - Winner!
+  - gold
   layers:
   - Default
   - TransparentFX

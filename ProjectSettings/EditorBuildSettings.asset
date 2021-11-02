@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/FPS-Mission.unity
     guid: 3a35b111dc83fad42bc7ff149b940f4d
   - enabled: 1
-    path: Assets/The UnderGround Acients.unity
+    path: Assets/Scenes/Menu.unity
+    guid: 970f1891412275d4fbcaab3bc2a80b57
+  - enabled: 1
+    path: Assets/Scenes/The UnderGround Acients.unity
     guid: 43fd1a5f748ef9f47af7fea72f89124b
   m_configObjects: {}

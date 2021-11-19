@@ -7,7 +7,6 @@ public class CoinCollect : MonoBehaviour
 {
     public TextMeshProUGUI countText;
     public TextMeshProUGUI goldText;
-    public GameObject key;
     public GameObject coinText;
     public GameObject mission;
     public GameObject mission1A;
@@ -26,7 +25,7 @@ public class CoinCollect : MonoBehaviour
         SetGoldText();
 
         SetCountText();
-        key.SetActive(false);
+        
         coinText.SetActive(false);
         
         
@@ -42,7 +41,7 @@ public class CoinCollect : MonoBehaviour
         }
         if(count >= 10)
         {
-            key.SetActive(true);
+            
             coinText.SetActive(false);
             mission.SetActive(false);
             mission1A.SetActive(true);
@@ -76,13 +75,6 @@ public class CoinCollect : MonoBehaviour
             count = count + 1;
             SetCountText();
         }   
-
-        if (other.gameObject.CompareTag("Key"))
-        {
-            other.gameObject.SetActive(false);
-            
-            SetCountText();
-        }
         if (other.gameObject.CompareTag("gold"))
         {
             other.gameObject.SetActive(false);

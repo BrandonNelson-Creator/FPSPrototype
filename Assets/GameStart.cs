@@ -8,7 +8,7 @@ public class GameStart : MonoBehaviour
   
     void OnTriggerEnter(Collider other)
     {
-        if (gameObject.CompareTag("Player"))
+        if (other.CompareTag("Player"))
         {
             SceneManager.LoadScene(2);
             Debug.Log("CHANGE");

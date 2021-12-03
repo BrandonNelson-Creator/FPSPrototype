@@ -18,6 +18,9 @@ EditorBuildSettings:
     path: Assets/Scenes/The UnderGround Acients.unity
     guid: 43fd1a5f748ef9f47af7fea72f89124b
   - enabled: 1
+    path: Assets/Scenes/Opening.unity
+    guid: 7ba771741c7185347a37fd08ee5e0479
+  - enabled: 1
     path: Assets/Scenes/Jumpworks.unity
     guid: ea472216ff8558445a5d07ba65d394dd
   m_configObjects: {}

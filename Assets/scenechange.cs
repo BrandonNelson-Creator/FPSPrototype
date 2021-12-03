@@ -8,9 +8,9 @@ public class scenechange : MonoBehaviour
     public GameObject gameObject;
     public CutsceneOn GetCutscene;
 
-    public void Ontrigger
+    public void OnTriggerEnter()
     {
-        SceneManager.UnloadScene
+        
         SceneManager.LoadScene("Jumpworks", LoadSceneMode.Additive);
     }
 

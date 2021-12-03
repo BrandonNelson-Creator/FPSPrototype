@@ -10,18 +10,19 @@ public class GameStart : MonoBehaviour
     {
         if (gameObject.CompareTag("Player"))
         {
+            SceneManager.LoadScene(2);
+            Debug.Log("CHANGE");
 
         }
 
-        StartCoroutine(FinishCut());
     }
 
-    IEnumerator FinishCut()
-    {
-        yield return new WaitForSeconds(10);
-        SceneManager.LoadScene(2);
+    //IEnumerator FinishCut()
+    //{
+        //yield return new WaitForSeconds(15);
+        //SceneManager.LoadScene(2);
 
 
         
-    }
+    //}
 }

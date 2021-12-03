@@ -15,6 +15,7 @@ TagManager:
   - Winner!
   - gold
   - Ground
+  - car
   layers:
   - Default
   - TransparentFX
